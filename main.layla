@@ -1,0 +1,18 @@
+//mode 명시가 없으면 default 모드 적용 ( 대부분 사용 가능 )
+send.key(
+    'url' : [url.artsnoa.com],
+    'proxy
+     +
+)
+on.proxy(URL='', ip='').useall()
+// 모든 요청을 해당 프록시를 태움
+
+on.proxy(URL='', ip='').post()
+// post 타입의 요청은 proxy 처리
+
+혹은
+A = on.proxy(URL='', ip='')
+.A 가 붙은 요청 타입은 PROXY 되어서 처리
+
+혹은
+.PROXY 사용

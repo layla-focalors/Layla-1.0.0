@@ -1,0 +1,8 @@
+<mode="croller", setting="setting.artsnoa">
+    croller.connect("www.naver.com")
+    croller.get.html()
+    croller.find_element(By.TAG_NAME)
+    croller.terminalShow(){
+        design = design.css
+    }
+</croller>

@@ -1,0 +1,5 @@
+<mode='db', method='layla'>
+    server(type="mariadb", setting="/dbset.artsnoa")
+    loadbalancer(server, setting="/map.artsnoa")
+    writelog(loadbalancer, format="{timestamp} : {instance} - {connectionLOG}")
+</mode>

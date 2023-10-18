@@ -1,0 +1,7 @@
+<mode="web">
+    server(type="web", settings="setting.artsnoa")
+    interaction(server, framework="nextjs") // 서버 상호작용 타입 설정
+    
+    make_tunnel(ssh, server0, server1, 2180) //2180 에서 서버간 통신이 가능한 터널 설정
+    broadcast(make_tunnel, interaction) // 터널로 받은 명령어를 방송 // 역 접속도 가능하게 설정
+</mode>

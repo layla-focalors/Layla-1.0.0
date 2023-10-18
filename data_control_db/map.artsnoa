@@ -1,0 +1,5 @@
+loadbalancer_file
+instance_list
+// write at number:name:serverIP
+0:default:000.000.000.000
+1:test:autodetect[0]

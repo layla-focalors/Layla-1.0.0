@@ -1,0 +1,7 @@
+<mode="code", method="java", proxy=1>
+    int x = new int 5;
+</java>
+
+<mode="code", method="python", proxy=2>
+    print(proxy.1.x)
+</python>

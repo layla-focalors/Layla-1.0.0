@@ -1,0 +1,10 @@
+browser : "Chrome",
+browser.hide : YES,
+browser.user_agent : "GhostAA"
+
+croller.display.stream = YES
+croller.display.type = "WEB"
+croller.display.port = 80
+croller.display.https = YES
+croller.display.sign = default
+

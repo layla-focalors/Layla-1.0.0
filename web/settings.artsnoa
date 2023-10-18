@@ -1,0 +1,12 @@
+web_host_server_name : ARTL-Nserver
+web_host_domain : autodetect_domain
+web_host_subdomain : /home
+web_host_subdomain_hidden : YES
+web_host_ssl : 'ssl.pem'
+web_host_port : 3221 -> 80
+// web_host_port - auto PROXY
+web_host_https : YES
+
+[interaction]{
+    'show':'nextjs_proxy'
+}
