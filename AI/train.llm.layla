@@ -1,0 +1,14 @@
+<mode="ai-api, method="layla", run=2, loop>
+    POST['/run_backend']:{
+        return(run.file(llm.layla))
+    }
+</python>
+<mode="ai", type="llm", run=1, name="llm.layla">
+    create.model(model_set.artnoa)
+    turn(
+        model.train(model_set.artnoa:model_train_dataset)
+        out(model.train_log)
+    )
+    run.model(model_set.artnoa:model_name, options=[])
+    model.export()
+</llm>

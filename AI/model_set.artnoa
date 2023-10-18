@@ -1,0 +1,6 @@
+type="llm"
+model_name : "Layla test llm"
+model_train_gpu : gethightspeedgpu
+model_train_dataset : "path"
+model_export_type : "JSON"
+model_use_pretrain_layla_llm : YES
