@@ -1,0 +1,9 @@
+<method="layla">
+    a = 10
+    @hide b = 0
+    c = a + b
+    out(c)
+    
+    //no-error : b가 선언되지 않았기 때문에 virtual_storage b가 되어 0이 기본값으로 연산됨 , 출력 10
+    //but, 다른 언어들은 오버레인지를 지원하지 않아 오류 발생
+</layla>
