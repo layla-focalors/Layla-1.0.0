@@ -1,4 +1,4 @@
-### HomePage FOR Main Write Layla Language
+### Layla Language
 
 ### Introduction
 Layla 1.0.0은 언어 중 하나로서 다음과 같은 특징을 지니는 새로운 언어입니다.  
@@ -54,4 +54,9 @@ ex )
     layla-export -l layla -ai 1  
     layla-export -l ['python','javascript'] -ai 1 -c 1  
     // clone : copy option  
-    layla-export -l auto -ai 1
+    layla-export -l auto -ai 1  
+
+자연어 기반 코딩 
+```
+layla-code -m "1~100까지 더하는 코드를 작성해줘" -export python
+```
