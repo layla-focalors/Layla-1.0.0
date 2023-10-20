@@ -16,7 +16,8 @@ Layla 1.0.0은 언어 중 하나로서 다음과 같은 특징을 지니는 새�
 
 ### How to use
 Proxy 문법  
-[<method="python">
+```
+<method="python">
    import datetime
    proxy.save = datetime.datetime.now()
 </python>
@@ -26,4 +27,4 @@ Proxy 문법
         <p>{proxy.save}</p>
     </body>
 </HTML>
-]
+```
