@@ -28,3 +28,30 @@ Proxy 문법
     </body>
 </HTML>
 ```
+
+다중 파일 작성
+```
+<method="python", path="./main.py">
+    from ./db/connect import * > automatic add ( export )
+    from ./scipt import * > automatic add ( export )
+</main>
+<path="./scipt.py">
+    def test():
+        print("test")
+</script>
+<path="./db/connect.py">
+    def connect():
+        print("connect")
+</db/connect>
+```
+
+파일 출력 ( 컴파일러 기능 )
+```
+    layla-export -l <language> -ai 1
+```
+ex )  
+    layla-export -l python -ai 1  
+    layla-export -l layla -ai 1  
+    layla-export -l ['python','javascript'] -ai 1 -c 1  
+    // clone : copy option  
+    layla-export -l auto -ai 1
