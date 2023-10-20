@@ -1,0 +1,6 @@
+<mode="server", type="mincraft">
+    server(settings.artnoa)
+    server.on()
+    out(server, log, terminal, session='0')
+    ifconnect(terminal, session='0')
+</mincraft>

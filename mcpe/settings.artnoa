@@ -1,0 +1,9 @@
+mcpe_version = "1.5.2-1.20.2"
+mcpe_server_on= "vm"
+mcpe_server_route{
+    '722' -> 'mcpe[0]'
+}
+mcpe_server_ip = autodetect_ip[0]
+mcpe_server_name = "minecraft_options"
+mcpe_optifine_object = NO
+mcpe_option.eula-text = YES
